@@ -2,7 +2,7 @@ import { gql } from 'apollo-angular';
 
 export const GET_CHARACTER = gql`
 query Query {
-{
+
   characters{
     actor
     description
@@ -14,6 +14,6 @@ query Query {
     url
 
   }
-}
+
   }`;
 
