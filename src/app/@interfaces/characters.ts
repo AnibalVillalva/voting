@@ -5,7 +5,7 @@ export interface ICharacters {
   description?: string;
   photo?: string;
   total_episodes?: string;
-  votes?: string;
+  votes?: number;
   url?: string;
 }
 

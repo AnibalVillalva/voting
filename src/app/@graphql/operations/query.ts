@@ -17,3 +17,17 @@ query Query {
 
   }`;
 
+export const GET_CHARACTER_BY_ID = gql`
+query GetCharacter($id: ID!) {
+  character(id: $id){
+    actor
+    description
+    id
+    name
+    photo
+    total_episodes
+    votes
+    url
+  }
+}`;
+
